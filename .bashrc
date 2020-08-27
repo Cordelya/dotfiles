@@ -2,6 +2,8 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
+# customized for Cordelya. http://github.com/Cordelya/dotfiles
+
 # If not running interactively, don't do anything
 case $- in
     *i*) ;;
@@ -163,7 +165,7 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+# flags for dotfile manager
 export DOT_REPO=http://github.com/Cordelya/dotfiles
-export DOT_DEST=dotfiles
-export DOT_REPO=http://github.com/Cordelya/dotfiles
-export DOT_DEST=dotfiles
+export DOT_DEST=
