@@ -1,0 +1,5 @@
+[user]
+	email = justcordelya@gmail.com
+	name = Jacqueline Arsenault
+[credential]
+	helper = cache --timeout=3600
